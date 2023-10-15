@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-footer {
+footer.link {
   align-items: center;
   justify-content: center;
 }
