@@ -12,18 +12,16 @@ root.render(
       <div>
         <h1>Weather Search Engine</h1>
         <WeatherSearch />
+        <br />
+        <p>
+          <a href="https://github.com/Raonga/react-weather">
+            {" "}
+            open-sourced code{" "}
+          </a>{" "}
+          by Raonga Uanivi
+        </p>
       </div>
     </div>
-
-    <footer>
-      <p>
-        <a href="https://github.com/Raonga/react-weather" target="_blank">
-          {" "}
-          open-sourced code{" "}
-        </a>{" "}
-        by Raonga Uanivi
-      </p>
-    </footer>
   </React.StrictMode>
 );
 
