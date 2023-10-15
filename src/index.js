@@ -14,6 +14,16 @@ root.render(
         <WeatherSearch />
       </div>
     </div>
+
+    <footer>
+      <p>
+        <a href="https://github.com/Raonga/react-weather" target="_blank">
+          {" "}
+          open-sourced code{" "}
+        </a>{" "}
+        by Raonga Uanivi
+      </p>
+    </footer>
   </React.StrictMode>
 );
 
