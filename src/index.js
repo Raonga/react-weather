@@ -5,7 +5,6 @@ import "./App";
 import "bootstrap/dist/css/bootstrap.css";
 import reportWebVitals from "./reportWebVitals";
 import WeatherSearch from "./WeatherSearch";
-import Weather from "./Weather";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

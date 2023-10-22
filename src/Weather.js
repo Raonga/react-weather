@@ -7,7 +7,6 @@ export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
 
   function handleResponse(response) {
-    console.log(response.data);
     setWeatherData({
       ready: true,
       temperature: Math.round(response.data.main.temp),
@@ -23,7 +22,7 @@ export default function Weather(props) {
 
   function search() {
     const apiKey = "0f9184c6bbbd99ef0f03atcoa48342a8";
-    let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apikey}&units=metric`;
+    let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
 
