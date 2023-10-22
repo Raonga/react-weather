@@ -1,0 +1,19 @@
+:root {
+  --main-font: "Poltawski Nowy", serif;
+  --secondary-color: blue;
+}
+
+.weather {
+  padding: 12;
+  color: var(--secondary-color);
+}
+
+.weather h1 {
+  font-family: var(--main-font);
+  font-size: 10px;
+  margin: 0;
+}
+
+.weather li {
+  list-style: none;
+}
