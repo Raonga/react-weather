@@ -5,14 +5,16 @@ import "./App";
 import "bootstrap/dist/css/bootstrap.css";
 import reportWebVitals from "./reportWebVitals";
 import WeatherSearch from "./WeatherSearch";
+import Weather from "./Weather";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <div className="App">
       <div>
-        <h1>Weather Search Engine</h1>
+        <h1>Weather App</h1>
         <WeatherSearch />
+        <Weather />
         <br />
         <p>
           <a href="https://github.com/Raonga/react-weather">
