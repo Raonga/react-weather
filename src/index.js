@@ -1,29 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import "./App";
+import App from "./App";
 import "bootstrap/dist/css/bootstrap.css";
 import reportWebVitals from "./reportWebVitals";
-import WeatherSearch from "./WeatherSearch";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <div className="App">
-      <div>
-        <h1>Weather App</h1>
-        <WeatherSearch />
-
-        <br />
-        <p>
-          <a href="https://github.com/Raonga/react-weather">
-            {" "}
-            open-sourced code{" "}
-          </a>{" "}
-          by Raonga Uanivi
-        </p>
-      </div>
-    </div>
+    <App />
   </React.StrictMode>
 );
 
