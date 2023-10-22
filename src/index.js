@@ -14,7 +14,7 @@ root.render(
       <div>
         <h1>Weather App</h1>
         <WeatherSearch />
-        <Weather />
+
         <br />
         <p>
           <a href="https://github.com/Raonga/react-weather">
