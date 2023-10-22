@@ -10,8 +10,8 @@ export default function Weather(props) {
   function handleResponse(response) {
     setWeatherData({
       ready: true,
-      temperature: Math.round(response.data.main.temp),
-      humidity: response.data.main.humidity,
+      temperature: Math.round(response.data.temperature.current),
+      humidity: response.data.temperature.humidity,
       description: response.data.weather[0].description,
       iconUrl:
         "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png",
