@@ -16,7 +16,7 @@ export default function Weather(props) {
       iconUrl:
         "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png",
       wind: Math.round(response.data.wind.speed),
-      city: response.data.name,
+      city: response.data.city.name,
       date: new Date(response.data.dt * 1000),
     });
   }
@@ -54,7 +54,7 @@ export default function Weather(props) {
               <input
                 type="submit"
                 value="Search"
-                className="btn btn-seondary w-100"
+                className="btn btn-dark w-100"
               />
             </div>
           </div>
