@@ -12,11 +12,10 @@ export default function App() {
 
         <footer className="d-flex justify-content-center">
           <p>
-            <a href="https://github.com/Raonga/react-weather">
-              {" "}
-              open-sourced code{" "}
-            </a>{" "}
-            by Raonga Uanivi
+            Coded by Raonga Uanivi and is open-sourced on
+            <a href="https://github.com/Raonga/react-weather"> github </a> and
+            hosted on{" "}
+            <a href="https://react-weather-rose-eight.vercel.app/">vercel</a>
           </p>
         </footer>
       </div>

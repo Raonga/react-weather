@@ -21,3 +21,8 @@
 .WeatherInfo li {
   list-style: none;
 }
+
+footer {
+  font-family: var(--main-font);
+  font-size: 14px;
+}
