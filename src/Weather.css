@@ -1,19 +1,23 @@
 :root {
   --main-font: "Poltawski Nowy", serif;
-  --secondary-color: blue;
+  --secondary-color: rgb(2, 117, 167) 99%;
+
+  --primary-color: black;
 }
 
-.weather {
+.WeatherInfo {
   padding: 12;
-  color: var(--secondary-color);
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
-.weather h1 {
+.WeatherInfo h1 {
   font-family: var(--main-font);
   font-size: 10px;
   margin: 0;
+  text-align: center;
 }
 
-.weather li {
+.WeatherInfo li {
   list-style: none;
 }
