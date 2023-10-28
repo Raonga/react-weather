@@ -16,8 +16,8 @@ export default function Weather(props) {
       iconUrl:
         "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png",
       wind: Math.round(response.data.wind.speed),
-      city: response.data.city.name,
-      date: new Date(response.data.dt * 1000),
+      city: response.data.city,
+      date: new Date(response.data.time * 1000),
     });
   }
 
