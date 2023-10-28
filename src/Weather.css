@@ -8,7 +8,6 @@
 .WeatherInfo {
   padding: 12;
   color: var(--primary-color);
-  background-color: var(--secondary-color);
 }
 
 .WeatherInfo h1 {
