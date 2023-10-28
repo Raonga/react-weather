@@ -35,7 +35,7 @@ export default function WeatherForecast(props) {
       </div>
     );
   } else {
-    let apiKey = "fc4oab2ba1a1af54f59bdb413t0b5a71";
+    let apiKey = "0f9184c6bbbd99ef0f03atcoa48342a8";
     let city = props.data.city;
     let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}`;
 
